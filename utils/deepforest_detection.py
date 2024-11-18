@@ -11,8 +11,8 @@ For example cutting large tiles into smaller images.
 # Required deepforest==0.3.8 or earlier
 
 import os
-from deepforest import deepforest
-from deepforest import get_data
+from deepforest.main import deepforest
+from deepforest.main import get_data
 import pandas as pd
 import pyproj
 
