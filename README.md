@@ -1,12 +1,10 @@
-# ReforesTree 🌴
+# ReforesTree 🌴 — Reforestation Tracking with Machine Learning
 
-We are excited to share the ReforesTree dataset! 🎉
-
-We introduce the ReforesTree dataset in hopes of encouraging the fellow machine learning community to take on the challenge of developing low-cost, scalable, trustworthy and accurate solutions for monitoring, verification and reporting of tropical reforestation inventory. 
+This project is based on the ReforesTree dataset and template code provided in the forked ReforesTree repo. 
 
 <img src="utils/illustrations/all_sites.png" alt="illustration of all sites" width="400"/>
 
-#### This is a dataset for the following 6 agroforestry sites
+#### The dataset provided is for the following 6 agroforestry sites
 In alphabetical order
 1. _Carlos Vera Arteaga_
 2. _Carlos Vera Guevara_
@@ -17,7 +15,7 @@ In alphabetical order
 
 
 ## Dataset Components
-For each site the data we publish consists of four components free for use:
+Each site in the data provide by the authors consists of four components free for use:
 1. 🛸 Raw drone RGB images _(see wwf_ecuador)_
 2. 🌴 Hand measured tree parameters (diameter at breast height, species, biomass, and location) of every tree _(see field_data.csv)_
 3. 🔲 Set of bounding boxes of trees for each site cleaned by hand and labeled as banana or not banana _(see annotations/cleaned)_
@@ -40,8 +38,8 @@ You can download the raw data [from dropbox](https://www.dropbox.com/scl/fo/qzlq
 
 Alternatively, we are hosting a version of the dataset in [zenodo](https://zenodo.org/record/6813783).
 
-## Tutorial
-In the tutorial you'll find the steps to recreate (and hopefully improve) the dataset and how to use it. 
+## Tutorial Template
+We iterate on the "tutorial" template provided by the authors to recreate (and hopefully improve) the dataset and how to use it. 
 
-Please read our paper [here](https://arxiv.org/abs/2201.11192).
-For any questions, please reach out to gyri.reiersen@tum.de or david.dao@inf.eth.ch
+Please read the paper [here](https://arxiv.org/abs/2201.11192).
+For any questions on the original project, please reach out to gyri.reiersen@tum.de or david.dao@inf.eth.ch
