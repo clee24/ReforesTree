@@ -14,7 +14,6 @@ import cv2
 from PIL import Image
 PIL.Image.MAX_IMAGE_PIXELS = None
 
-
 # Read .kml files for Orthomosaics RGB
 
 def read_kml(dir, file):
